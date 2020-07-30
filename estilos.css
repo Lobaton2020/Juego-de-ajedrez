@@ -1,0 +1,47 @@
+body {
+    background-color: #ddd;
+}
+
+.tablero {
+    margin: 0px auto;
+    margin-top: 10px;
+    width: 520px;
+    height: 520px;
+    box-shadow: 0px 0px 15px gray;
+    cursor: pointer;
+}
+
+.tablero:enabled {
+    cursor: pointer;
+}
+
+.casilla {
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.pieza {
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+}
+
+div.blanca {
+    background-color: #f5deb3;
+}
+
+div.negra {
+    background-color: #bd9570;
+}
+
+div.over-white {
+    background-color: rgba(136, 197, 228, 0.027);
+    /* rgba(132, 193, 224, 0.067); */
+}
+
+div.over-black {
+    background-color: rgba(60, 139, 178, 0.067);
+}
